@@ -1,0 +1,22 @@
+@import "../../public/components/bootstrap.import.less";
+
+//navbar tweaks
+.navbar {
+  border-radius: 0;
+}
+
+//layouts
+@sidebar: 250px;
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: @navbar-height + 2;
+  bottom: 0;
+  width: @sidebar;
+  background-color: lighten(@brand-primary, 5%);
+}
+.mainStage {
+  margin-left: @sidebar;
+}
+//login

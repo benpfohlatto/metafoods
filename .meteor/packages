@@ -5,5 +5,12 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
+less
+iron:router
+accounts-base
+accounts-password
+useraccounts:unstyled
+jquery
+twbs:bootstrap
+alanning:roles
