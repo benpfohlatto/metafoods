@@ -21,10 +21,13 @@ Router.route('/login', function () {
 });
 
 Router.route('/', function () {
-    this.render('sidebar');
     this.render('homeDashboard');
 });
 
 Router.route('/organizations', function () {
     this.render('organizations');
+});
+
+Router.route('/administration', function () {
+    this.render('adminTemplate');
 });

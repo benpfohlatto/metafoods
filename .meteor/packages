@@ -10,7 +10,8 @@ less
 iron:router
 accounts-base
 accounts-password
-useraccounts:unstyled
 jquery
 twbs:bootstrap
 alanning:roles
+accounts-ui
+kaoskeya:accounts-admin-ui-bootstrap-3

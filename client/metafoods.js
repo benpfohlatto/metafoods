@@ -9,6 +9,13 @@ Template.hello.helpers({
   }
 });
 
+Template.adminTemplate.helpers({
+  // check if user is an admin
+  isAdminUser: function() {
+    return Roles.userIsInRole(Meteor.user(), ['admin']);
+  }
+})
+
 Template.ApplicationLayout.events({
   'click button': function () {
     // increment the counter when button is clicked
