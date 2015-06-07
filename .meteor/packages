@@ -13,5 +13,5 @@ accounts-password
 jquery
 twbs:bootstrap
 alanning:roles
-accounts-ui
 kaoskeya:accounts-admin-ui-bootstrap-3
+useraccounts:bootstrap
